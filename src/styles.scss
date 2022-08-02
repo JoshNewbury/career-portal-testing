@@ -11,9 +11,14 @@ app-job-list {
   }
 }
 
+html {
+  height: 100%;
+}
+
 body {
   overflow: hidden;
   background-color: #FFF;
+  height: 100%;
 }
 
 novo-file-input {
@@ -25,6 +30,7 @@ app-job-list {
     border-bottom: unset;
 
     div.list-item {
+      display: block !important;
       item-content i{
        color: #4a89dc;
       }
